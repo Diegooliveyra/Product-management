@@ -1,27 +1,50 @@
-# ProductsApp
+# Products-App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.4.
+## ℹ️ Sobre o projeto
 
-## Development server
+Nesse projeto desenvolvi uma aplicação que salva dependecias e produtos ultilizando services.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## ✨ demonstração
 
-## Code scaffolding
+</br>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<img src=".github/app.gif"/>
+</br>
+</br>
 
-## Build
+## 🎯 Objetivo do projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Foi realizado este projeto com o intuito de adquerir conhecimentos sobre o framework Angular.
 
-## Running unit tests
+## 📝 Tecnologias
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Para a realização desse projeto foi utilizado as seguintes tecnologias/linguagens:
 
-## Running end-to-end tests
+- [Angular](https://angular.io/) Angular is a platform for building mobile and desktop web applications
+- [Angular Material](https://material.angular.io/) Material Design components for Angular
+- [TypeScript](https://www.typescriptlang.org/) Typed JavaScript at Any Scale.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## ⚙️ Instalação
 
-## Further help
+Para que este rode em sua máquina, siga os passos abaixo:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+# Clone o repositório em alguma pasta em sua máquina
+$ git clone https://github.com/Diegooliveyra/Product-management.git
+
+# Entre no repositório
+$ cd products-app
+
+Instale as dependencias digitando no termimal:
+$ npm install
+
+Rode a aplicação no modo de desenvolvimento.
+$ npm start
+
+Abra http://localhost:4200 no seu navegador para visualizar o projeto
+```
+
+## 📝 Licença
+
+<p>O projeto se encontra sob licença MIT. Para mais detalhes, acesse <a href='LICENSE'>license<a>.</p>
+<p>Criado com 💙 por <a href='https://github.com/Diegooliveyra/' target='blank'>Diego Oliveira</a></p>
