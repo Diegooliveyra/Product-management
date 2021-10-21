@@ -24,5 +24,9 @@ export class DepartmentService {
     console.log(this.departments)
   }
 
+  getDepartmentById(id:number):any{
+    return this.departments.find(d => d.id == id)
+  }
+
 
 }

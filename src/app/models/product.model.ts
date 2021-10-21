@@ -1,9 +1,9 @@
-import { Departament } from './department.model';
+import { Department } from './department.model';
 
 export interface Product {
-  id: number
+  id?: number
   name: string
   price: number
   description: string
-  department: Departament
+  department: Department
 }
